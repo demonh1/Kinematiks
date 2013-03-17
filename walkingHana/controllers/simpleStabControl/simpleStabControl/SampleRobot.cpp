@@ -25,7 +25,7 @@ void SampleRobot::run()
 
 	 std::cout<<" "<<anglesServo[i]*MMath::DEG_OVER_RAD;
  }
-	std::cout<<std::endl;
+	std::cout<<std::endl; // зачем этот прикол (?)
 
  	std::cout<<"coord"<<Kinematics::forwardKinematics(Kinematics::RLEG_CHAIN,anglesServo)<<"/coord"<<std::endl;
  
